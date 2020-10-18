@@ -1,6 +1,6 @@
 # flutter_metode_bayar
 
-Daftar metode pembayaran
+Plugin untuk melihat daftar metode pembayaran
 
 ## Getting Started
 

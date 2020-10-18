@@ -79,7 +79,7 @@ class PaymentMethod {
     linkaja
   ];
 
-  PayMethod getPaymentMethodDetailByCode(payment_code) {
+  static PayMethod getPaymentMethodDetailByCode(String payment_code) {
     var the_paymethod = null;
     All.forEach((element) {
       if (element.metode == payment_code) {

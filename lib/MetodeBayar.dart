@@ -1,13 +1,17 @@
 import 'dart:convert';
 
+import 'package:flutter/material.dart';
+
 class MetodeBayar {
   final String metode;
   final String asset_icon;
   final String label;
+  final Image logo;
   const MetodeBayar({
     this.metode,
     this.asset_icon,
     this.label,
+    @required this.logo,
   });
 
   MetodeBayar copyWith({

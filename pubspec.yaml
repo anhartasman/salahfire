@@ -1,8 +1,8 @@
 name: flutter_metode_bayar
-description: Daftar metode pembayaran
+description: Plugin untuk melihat daftar metode pembayaran
 version: 0.0.1
-author:
-homepage:
+author: Anhar Tasman<anhar_tasman@yahoo.com>
+homepage: https://bitbucket.org/anhartasman/flutter_metode_bayar
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

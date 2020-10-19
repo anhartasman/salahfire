@@ -15,6 +15,13 @@ class PaymentMethod {
     logo: const Image(
       image: AssetImage('assets/icon/icon_bca.png'),
     ),);
+  static const PayMethod va_bca = const PayMethod(
+    metode: "va_bca",
+    label: "Virtual Account BCA",
+    asset_icon: "assets/icon/icon_bca.png",
+    logo: const Image(
+      image: AssetImage('assets/icon/icon_bca.png'),
+    ),);
   static const PayMethod trf_bni = const PayMethod(
       metode: "trf_bni",
       label: "Transfer BNI",
@@ -73,6 +80,7 @@ class PaymentMethod {
     trf_bni,
     trf_mdr,
     trf_bri,
+    va_bca,
     va_bni,
     cash,
     dana,

@@ -74,6 +74,10 @@ class PaymentMethod {
     logo: const Image(
       image: AssetImage('assets/icon/icon_link_aja.png'),
     ),);
+  static const List<PayMethod> OnlyVA = [
+    va_bca,
+    va_bni,
+  ];
   static const List<PayMethod> All = [
     ovo_cash,
     trf_bca,

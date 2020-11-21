@@ -4,79 +4,105 @@ import 'PayMethod.dart';
 
 class PaymentMethod {
   static const PayMethod ovo_cash = const PayMethod(
-      metode: "ovo_cash", label: "OVO", asset_icon: "assets/icon/icon_ovo.png",
-  logo: const Image(
-    image: AssetImage('assets/icon/icon_ovo.png'),
-  ),);
+    metode: "ovo_cash",
+    label: "OVO",
+    asset_icon: "assets/icon/icon_ovo.png",
+    logo: const Image(
+      image: AssetImage('assets/icon/icon_ovo.png'),
+    ),
+  );
   static const PayMethod trf_bca = const PayMethod(
-      metode: "trf_bca",
-      label: "Transfer BCA",
-      asset_icon: "assets/icon/icon_bca.png",
+    metode: "trf_bca",
+    label: "Transfer BCA",
+    asset_icon: "assets/icon/icon_bca.png",
     logo: const Image(
       image: AssetImage('assets/icon/icon_bca.png'),
-    ),);
+    ),
+  );
   static const PayMethod va_bca = const PayMethod(
     metode: "va_bca",
     label: "Virtual Account BCA",
     asset_icon: "assets/icon/icon_bca.png",
     logo: const Image(
       image: AssetImage('assets/icon/icon_bca.png'),
-    ),);
+    ),
+  );
   static const PayMethod trf_bni = const PayMethod(
-      metode: "trf_bni",
-      label: "Transfer BNI",
-      asset_icon: "assets/icon/icon_bni.png",
+    metode: "trf_bni",
+    label: "Transfer BNI",
+    asset_icon: "assets/icon/icon_bni.png",
     logo: const Image(
       image: AssetImage('assets/icon/icon_bni.png'),
-    ),);
+    ),
+  );
   static const PayMethod trf_mdr = const PayMethod(
-      metode: "trf_mdr",
-      label: "Transfer Mandiri",
-      asset_icon: "assets/icon/icon_mandiri.png",
+    metode: "trf_mdr",
+    label: "Transfer Mandiri",
+    asset_icon: "assets/icon/icon_mandiri.png",
     logo: const Image(
       image: AssetImage('assets/icon/icon_mandiri.png'),
-    ),);
+    ),
+  );
   static const PayMethod trf_bri = const PayMethod(
-      metode: "trf_bri",
-      label: "Transfer BRI",
-      asset_icon: "assets/icon/icon_bri.png",
+    metode: "trf_bri",
+    label: "Transfer BRI",
+    asset_icon: "assets/icon/icon_bri.png",
     logo: const Image(
       image: AssetImage('assets/icon/icon_bri.png'),
-    ),);
+    ),
+  );
+  static const PayMethod va_bri = const PayMethod(
+    metode: "va_bri",
+    label: "Virtual Account BRI",
+    asset_icon: "assets/icon/icon_bri.png",
+    logo: const Image(
+      image: AssetImage('assets/icon/icon_bri.png'),
+    ),
+  );
   static const PayMethod va_bni = const PayMethod(
-      metode: "va_bni",
-      label: "Virtual Account BNI",
-      asset_icon: "assets/icon/icon_bni.png",
+    metode: "va_bni",
+    label: "Virtual Account BNI",
+    asset_icon: "assets/icon/icon_bni.png",
     logo: const Image(
       image: AssetImage('assets/icon/icon_bni.png'),
-    ),);
+    ),
+  );
   static const PayMethod cash = const PayMethod(
-      metode: "cash", label: "Tunai", asset_icon: "assets/icon/icon_bni.png",
+    metode: "cash",
+    label: "Tunai",
+    asset_icon: "assets/icon/icon_bni.png",
     logo: const Image(
       image: AssetImage('assets/icon/icon_bni.png'),
-    ),);
+    ),
+  );
   static const PayMethod gopay = const PayMethod(
-      metode: "gopay",
-      label: "Go-Pay",
-      asset_icon: "assets/icon/icon_gopay.png",
+    metode: "gopay",
+    label: "Go-Pay",
+    asset_icon: "assets/icon/icon_gopay.png",
     logo: const Image(
       image: AssetImage('assets/icon/icon_gopay.png'),
-    ),);
+    ),
+  );
   static const PayMethod dana = const PayMethod(
-      metode: "dana", label: "Dana", asset_icon: "assets/icon/icon_dana.png",
+    metode: "dana",
+    label: "Dana",
+    asset_icon: "assets/icon/icon_dana.png",
     logo: const Image(
       image: AssetImage('assets/icon/icon_dana.png'),
-    ),);
+    ),
+  );
   static const PayMethod linkaja = const PayMethod(
-      metode: "linkaja",
-      label: "Link Aja",
-      asset_icon: "assets/icon/icon_link_aja.png",
+    metode: "linkaja",
+    label: "Link Aja",
+    asset_icon: "assets/icon/icon_link_aja.png",
     logo: const Image(
       image: AssetImage('assets/icon/icon_link_aja.png'),
-    ),);
+    ),
+  );
   static const List<PayMethod> OnlyVA = [
     va_bca,
     va_bni,
+    va_bri,
   ];
   static const List<PayMethod> All = [
     ovo_cash,
@@ -86,6 +112,7 @@ class PaymentMethod {
     trf_bri,
     va_bca,
     va_bni,
+    va_bri,
     cash,
     dana,
     linkaja
@@ -101,5 +128,4 @@ class PaymentMethod {
     });
     return the_paymethod;
   }
-
 }

@@ -18,11 +18,13 @@ class PayMethod {
     String metode,
     String asset_icon,
     String label,
+    Image logo,
   }) {
     return PayMethod(
       metode: metode ?? this.metode,
       asset_icon: asset_icon ?? this.asset_icon,
       label: label ?? this.label,
+      logo: logo ?? this.logo,
     );
   }
 

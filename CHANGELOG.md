@@ -1,3 +1,5 @@
+## [0.0.7] - 22-11-2020
+* Virtual Account BRI
 ## [0.0.6] - 19-10-2020
 * Virtual Account List
 ## [0.0.5] - 19-10-2020

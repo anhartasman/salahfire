@@ -67,6 +67,14 @@ class PaymentMethod {
       image: AssetImage('assets/icon/icon_bni.png'),
     ),
   );
+  static const PayMethod va_mdr = const PayMethod(
+    metode: "va_mdr",
+    label: "Virtual Account Mandiri",
+    asset_icon: "assets/icon/icon_mandiri.png",
+    logo: const Image(
+      image: AssetImage('assets/icon/icon_mandiri.png'),
+    ),
+  );
   static const PayMethod cash = const PayMethod(
     metode: "cash",
     label: "Tunai",
@@ -103,6 +111,7 @@ class PaymentMethod {
     va_bca,
     va_bni,
     va_bri,
+    va_mdr,
   ];
   static const List<PayMethod> All = [
     ovo_cash,
@@ -113,6 +122,7 @@ class PaymentMethod {
     va_bca,
     va_bni,
     va_bri,
+    va_mdr,
     cash,
     dana,
     linkaja

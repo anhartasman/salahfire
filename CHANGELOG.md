@@ -1,3 +1,5 @@
+## [0.0.8] - 22-11-2020
+* Virtual Account Mandiri
 ## [0.0.7] - 22-11-2020
 * Virtual Account BRI
 ## [0.0.6] - 19-10-2020

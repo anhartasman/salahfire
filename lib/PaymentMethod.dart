@@ -120,12 +120,15 @@ class PaymentMethod {
 
   static PayMethod getPaymentMethodDetailByCode(String payment_code) {
     var the_paymethod = null;
-    All.forEach((element) {
+
+    for (var element in All) {
       if (element.metode == payment_code) {
         print("Dapet yang cocok");
         the_paymethod = element;
+        break;
       }
-    });
+    }
+
     return the_paymethod;
   }
 }

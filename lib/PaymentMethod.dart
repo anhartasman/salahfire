@@ -107,14 +107,28 @@ class PaymentMethod {
       image: AssetImage('assets/icon/icon_link_aja.png'),
     ),
   );
+  static const PayMethod va_permata_bank = const PayMethod(
+    metode: "va_permata_bank",
+    label: "Virtual Account Permata Bank",
+    asset_icon: "assets/icon/icon_permata_bank.png",
+    logo: const Image(
+      image: AssetImage('assets/icon/icon_permata_bank.png'),
+    ),
+  );
   static const List<PayMethod> OnlyVA = [
     va_bca,
     va_bni,
     va_bri,
     va_mdr,
+    va_permata_bank,
+  ];
+  static const List<PayMethod> OnlyEWallet = [
+    ovo_cash,
+    gopay,
+    dana,
+    linkaja,
   ];
   static const List<PayMethod> All = [
-    ovo_cash,
     trf_bca,
     trf_bni,
     trf_mdr,
@@ -123,9 +137,12 @@ class PaymentMethod {
     va_bni,
     va_bri,
     va_mdr,
-    cash,
+    va_permata_bank,
+    ovo_cash,
+    gopay,
     dana,
-    linkaja
+    linkaja,
+    cash,
   ];
 
   static PayMethod getPaymentMethodDetailByCode(String payment_code) {
@@ -133,7 +150,7 @@ class PaymentMethod {
 
     for (var element in All) {
       if (element.metode == payment_code) {
-        print("Dapet yang cocok");
+        print("Dapet payment method: " + element.metode);
         the_paymethod = element;
         break;
       }

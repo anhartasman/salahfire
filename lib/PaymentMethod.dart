@@ -8,7 +8,8 @@ class PaymentMethod {
     label: "OVO",
     asset_icon: "assets/icon/icon_ovo.png",
     logo: const Image(
-      image: AssetImage('assets/icon/icon_ovo.png'),
+      image: AssetImage('assets/icon/icon_ovo.png',
+          package: 'flutter_metode_bayar'),
     ),
   );
   static const PayMethod trf_bca = const PayMethod(
@@ -16,7 +17,8 @@ class PaymentMethod {
     label: "Transfer BCA",
     asset_icon: "assets/icon/icon_bca.png",
     logo: const Image(
-      image: AssetImage('assets/icon/icon_bca.png'),
+      image: AssetImage('assets/icon/icon_bca.png',
+          package: 'flutter_metode_bayar'),
     ),
   );
   static const PayMethod va_bca = const PayMethod(
@@ -24,7 +26,8 @@ class PaymentMethod {
     label: "Virtual Account BCA",
     asset_icon: "assets/icon/icon_bca.png",
     logo: const Image(
-      image: AssetImage('assets/icon/icon_bca.png'),
+      image: AssetImage('assets/icon/icon_bca.png',
+          package: 'flutter_metode_bayar'),
     ),
   );
   static const PayMethod trf_bni = const PayMethod(
@@ -32,7 +35,8 @@ class PaymentMethod {
     label: "Transfer BNI",
     asset_icon: "assets/icon/icon_bni.png",
     logo: const Image(
-      image: AssetImage('assets/icon/icon_bni.png'),
+      image: AssetImage('assets/icon/icon_bni.png',
+          package: 'flutter_metode_bayar'),
     ),
   );
   static const PayMethod trf_mdr = const PayMethod(
@@ -40,7 +44,8 @@ class PaymentMethod {
     label: "Transfer Mandiri",
     asset_icon: "assets/icon/icon_mandiri.png",
     logo: const Image(
-      image: AssetImage('assets/icon/icon_mandiri.png'),
+      image: AssetImage('assets/icon/icon_mandiri.png',
+          package: 'flutter_metode_bayar'),
     ),
   );
   static const PayMethod trf_bri = const PayMethod(
@@ -48,7 +53,8 @@ class PaymentMethod {
     label: "Transfer BRI",
     asset_icon: "assets/icon/icon_bri.png",
     logo: const Image(
-      image: AssetImage('assets/icon/icon_bri.png'),
+      image: AssetImage('assets/icon/icon_bri.png',
+          package: 'flutter_metode_bayar'),
     ),
   );
   static const PayMethod va_bri = const PayMethod(
@@ -56,7 +62,8 @@ class PaymentMethod {
     label: "Virtual Account BRI",
     asset_icon: "assets/icon/icon_bri.png",
     logo: const Image(
-      image: AssetImage('assets/icon/icon_bri.png'),
+      image: AssetImage('assets/icon/icon_bri.png',
+          package: 'flutter_metode_bayar'),
     ),
   );
   static const PayMethod va_bni = const PayMethod(
@@ -64,7 +71,8 @@ class PaymentMethod {
     label: "Virtual Account BNI",
     asset_icon: "assets/icon/icon_bni.png",
     logo: const Image(
-      image: AssetImage('assets/icon/icon_bni.png'),
+      image: AssetImage('assets/icon/icon_bni.png',
+          package: 'flutter_metode_bayar'),
     ),
   );
   static const PayMethod va_mdr = const PayMethod(
@@ -72,7 +80,8 @@ class PaymentMethod {
     label: "Virtual Account Mandiri",
     asset_icon: "assets/icon/icon_mandiri.png",
     logo: const Image(
-      image: AssetImage('assets/icon/icon_mandiri.png'),
+      image: AssetImage('assets/icon/icon_mandiri.png',
+          package: 'flutter_metode_bayar'),
     ),
   );
   static const PayMethod cash = const PayMethod(
@@ -80,7 +89,8 @@ class PaymentMethod {
     label: "Tunai",
     asset_icon: "assets/icon/icon_bni.png",
     logo: const Image(
-      image: AssetImage('assets/icon/icon_bni.png'),
+      image: AssetImage('assets/icon/icon_bni.png',
+          package: 'flutter_metode_bayar'),
     ),
   );
   static const PayMethod gopay = const PayMethod(
@@ -88,7 +98,8 @@ class PaymentMethod {
     label: "Go-Pay",
     asset_icon: "assets/icon/icon_gopay.png",
     logo: const Image(
-      image: AssetImage('assets/icon/icon_gopay.png'),
+      image: AssetImage('assets/icon/icon_gopay.png',
+          package: 'flutter_metode_bayar'),
     ),
   );
   static const PayMethod dana = const PayMethod(
@@ -96,7 +107,8 @@ class PaymentMethod {
     label: "Dana",
     asset_icon: "assets/icon/icon_dana.png",
     logo: const Image(
-      image: AssetImage('assets/icon/icon_dana.png'),
+      image: AssetImage('assets/icon/icon_dana.png',
+          package: 'flutter_metode_bayar'),
     ),
   );
   static const PayMethod linkaja = const PayMethod(
@@ -104,7 +116,8 @@ class PaymentMethod {
     label: "Link Aja",
     asset_icon: "assets/icon/icon_link_aja.png",
     logo: const Image(
-      image: AssetImage('assets/icon/icon_link_aja.png'),
+      image: AssetImage('assets/icon/icon_link_aja.png',
+          package: 'flutter_metode_bayar'),
     ),
   );
   static const PayMethod va_permata_bank = const PayMethod(
@@ -112,7 +125,8 @@ class PaymentMethod {
     label: "Virtual Account Permata Bank",
     asset_icon: "assets/icon/icon_permata_bank.png",
     logo: const Image(
-      image: AssetImage('assets/icon/icon_permata_bank.png'),
+      image: AssetImage('assets/icon/icon_permata_bank.png',
+          package: 'flutter_metode_bayar'),
     ),
   );
   static const List<PayMethod> OnlyVA = [

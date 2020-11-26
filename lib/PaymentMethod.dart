@@ -113,6 +113,12 @@ class PaymentMethod {
     va_bri,
     va_mdr,
   ];
+  static const List<PayMethod> OnlyEWallet = [
+    ovo_cash,
+    gopay,
+    dana,
+    linkaja,
+  ];
   static const List<PayMethod> All = [
     ovo_cash,
     trf_bca,
@@ -133,7 +139,7 @@ class PaymentMethod {
 
     for (var element in All) {
       if (element.metode == payment_code) {
-        print("Dapet yang cocok");
+        print("Dapet payment method: " + element.metode);
         the_paymethod = element;
         break;
       }

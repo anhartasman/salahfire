@@ -8,17 +8,17 @@ class PayMethod {
   final String label;
   final Image logo;
   const PayMethod({
-    this.metode,
-    this.asset_icon,
-    this.label,
-    @required this.logo,
+    required this.metode,
+    required this.asset_icon,
+    required this.label,
+    required this.logo,
   });
 
   PayMethod copyWith({
-    String metode,
-    String asset_icon,
-    String label,
-    Image logo,
+    String? metode,
+    String? asset_icon,
+    String? label,
+    Image? logo,
   }) {
     return PayMethod(
       metode: metode ?? this.metode,
@@ -37,12 +37,11 @@ class PayMethod {
   }
 
   factory PayMethod.fromMap(Map<String, dynamic> map) {
-    if (map == null) return null;
-
     return PayMethod(
       metode: map['metode'],
       asset_icon: map['asset_icon'],
       label: map['label'],
+      logo: map['logo'],
     );
   }
 

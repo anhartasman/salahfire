@@ -1,6 +1,6 @@
 name: flutter_metode_bayar
 description: Plugin untuk melihat daftar metode pembayaran
-version: 0.0.11
+version: 0.0.12
 author: Anhar Tasman<anhar_tasman@yahoo.com>
 homepage: https://bitbucket.org/anhartasman/flutter_metode_bayar
 
@@ -21,7 +21,16 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
-
+  assets:
+    - packages/flutter_metode_bayar/assets/icon_metode_bayar/icon_bca.png
+    - packages/flutter_metode_bayar/assets/icon_metode_bayar/icon_bni.png
+    - packages/flutter_metode_bayar/assets/icon_metode_bayar/icon_bri.png
+    - packages/flutter_metode_bayar/assets/icon_metode_bayar/icon_dana.png
+    - packages/flutter_metode_bayar/assets/icon_metode_bayar/icon_gopay.png
+    - packages/flutter_metode_bayar/assets/icon_metode_bayar/icon_link_aja.png
+    - packages/flutter_metode_bayar/assets/icon_metode_bayar/icon_mandiri.png
+    - packages/flutter_metode_bayar/assets/icon_metode_bayar/icon_ovo.png
+    - packages/flutter_metode_bayar/assets/icon_metode_bayar/icon_permata.png
   # To add assets to your package, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

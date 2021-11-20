@@ -4,7 +4,7 @@ class SalahFire {
     String pesan =
         "Terdapat kesalahan tidak dikenali, silahkan hubungi Call Center";
 
-    if (pesan.contains("already")) {
+    if (errorMsg.contains("already")) {
       pesan =
           "Nomor Anda sudah terdaftar sebelumnya, jika lupa password silahkan reset password";
     } else {

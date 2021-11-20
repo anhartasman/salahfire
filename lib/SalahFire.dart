@@ -1,6 +1,7 @@
 class SalahFire {
   static String pesan(String errorMsg) {
     print("errorMsg: ${errorMsg}");
+    errorMsg = errorMsg.trim().toLowerCase();
     String pesan =
         "Terdapat kesalahan tidak dikenali, silahkan hubungi Call Center";
 
